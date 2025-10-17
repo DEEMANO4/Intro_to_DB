@@ -1,7 +1,7 @@
 CREATE DATABASE IF NOT EXISTS alx_book_store
 
 
-CREATE TABLE Book (
+CREATE TABLE Books (
     book_id INT Primary Key,
     title VARCHAR(130) NOT NULL,
     FOREIGN KEY (author_id) REFERENCES Authors(author_id)
