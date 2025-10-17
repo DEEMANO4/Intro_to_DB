@@ -1,14 +1,21 @@
 import mysql.connector
 
+DB_Host = 3306,
+DB_User = "root",
+DB_Password = "Uwomanodavidapena_1",
+DataBase_Name = "alx_book_store"
+
 try:
     mydb = mysql.connector.connect(
-    host = 3306,
-    user = "root",
-    password = "Uwomanodavidapena_1",
-    database = "alx_book_store"
+        host = DB_Host,
+        user = DB_User,
+        password = DB_Password,
+        database = DataBase_Name
+    
     )
 
     mycursor = mydb.cursor()
+    create_db_query = f"CREATE DATABASE IF NOT EXISTS {DataBase_Name}"
     mycursor.execute()
 
     print("Database alx_book_store created successfully!")
