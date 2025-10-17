@@ -1,1 +1,1 @@
-Table_List = [Books, Authors, Customers, Orders, Order_Details]
+Table_List = ["Books", "Authors", "Customers", "Orders", "Order_Details"]
