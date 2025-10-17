@@ -9,7 +9,7 @@ CREATE TABLE Books (
     publication_date DATE
 );
 
-CREATE TABLE Author (
+CREATE TABLE Authors (
     author_id INT PRIMARY KEY,
     author_name VARCHAR(215) NOT NULL,
 );
