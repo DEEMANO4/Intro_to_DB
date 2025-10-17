@@ -8,6 +8,6 @@
 f"""INFORMATION_SCHEMA.COLUMNS
 SELECT
  COLUMN_NAME,
- COLUMN_TYPE
- TABLE_SCHEMA = 'alx_booK_store'
- TABLE_NAME ='Books'"""
+ COLUMN_TYPE"""
+ "TABLE_SCHEMA = 'alx_booK_store'"
+  "TABLE_NAME ='Books'"
